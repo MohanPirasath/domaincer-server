@@ -11,7 +11,7 @@ dotenv.config()
 const PORT=process.env.PORT;
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://mycapston.netlify.app"],
+    origin: ["http://localhost:3000", "https://freelancees.netlify.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
